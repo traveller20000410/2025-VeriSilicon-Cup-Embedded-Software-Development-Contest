@@ -1,0 +1,275 @@
+{
+  "model.0.conv1.weight": {
+    "shape": [
+      8,
+      1,
+      3,
+      3
+    ],
+    "dtype": "float32",
+    "offset": 0
+  },
+  "model.0.bn1.weight": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 288
+  },
+  "model.0.bn1.bias": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 320
+  },
+  "model.0.bn1.running_mean": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 352
+  },
+  "model.0.bn1.running_var": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 384
+  },
+  "model.0.bn1.num_batches_tracked": {
+    "shape": [],
+    "dtype": "float32",
+    "offset": 416
+  },
+  "model.0.conv2.weight": {
+    "shape": [
+      8,
+      8,
+      3,
+      3
+    ],
+    "dtype": "float32",
+    "offset": 420
+  },
+  "model.0.bn2.weight": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2724
+  },
+  "model.0.bn2.bias": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2756
+  },
+  "model.0.bn2.running_mean": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2788
+  },
+  "model.0.bn2.running_var": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2820
+  },
+  "model.0.bn2.num_batches_tracked": {
+    "shape": [],
+    "dtype": "float32",
+    "offset": 2852
+  },
+  "model.0.shortcut.0.weight": {
+    "shape": [
+      8,
+      1,
+      1,
+      1
+    ],
+    "dtype": "float32",
+    "offset": 2856
+  },
+  "model.0.shortcut.1.weight": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2888
+  },
+  "model.0.shortcut.1.bias": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2920
+  },
+  "model.0.shortcut.1.running_mean": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2952
+  },
+  "model.0.shortcut.1.running_var": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32",
+    "offset": 2984
+  },
+  "model.0.shortcut.1.num_batches_tracked": {
+    "shape": [],
+    "dtype": "float32",
+    "offset": 3016
+  },
+  "model.2.conv1.weight": {
+    "shape": [
+      24,
+      8,
+      3,
+      3
+    ],
+    "dtype": "float32",
+    "offset": 3020
+  },
+  "model.2.bn1.weight": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 9932
+  },
+  "model.2.bn1.bias": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 10028
+  },
+  "model.2.bn1.running_mean": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 10124
+  },
+  "model.2.bn1.running_var": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 10220
+  },
+  "model.2.bn1.num_batches_tracked": {
+    "shape": [],
+    "dtype": "float32",
+    "offset": 10316
+  },
+  "model.2.conv2.weight": {
+    "shape": [
+      24,
+      24,
+      3,
+      3
+    ],
+    "dtype": "float32",
+    "offset": 10320
+  },
+  "model.2.bn2.weight": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 31056
+  },
+  "model.2.bn2.bias": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 31152
+  },
+  "model.2.bn2.running_mean": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 31248
+  },
+  "model.2.bn2.running_var": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 31344
+  },
+  "model.2.bn2.num_batches_tracked": {
+    "shape": [],
+    "dtype": "float32",
+    "offset": 31440
+  },
+  "model.2.shortcut.0.weight": {
+    "shape": [
+      24,
+      8,
+      1,
+      1
+    ],
+    "dtype": "float32",
+    "offset": 31444
+  },
+  "model.2.shortcut.1.weight": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 32212
+  },
+  "model.2.shortcut.1.bias": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 32308
+  },
+  "model.2.shortcut.1.running_mean": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 32404
+  },
+  "model.2.shortcut.1.running_var": {
+    "shape": [
+      24
+    ],
+    "dtype": "float32",
+    "offset": 32500
+  },
+  "model.2.shortcut.1.num_batches_tracked": {
+    "shape": [],
+    "dtype": "float32",
+    "offset": 32596
+  },
+  "output.1.weight": {
+    "shape": [
+      2,
+      24
+    ],
+    "dtype": "float32",
+    "offset": 32600
+  },
+  "output.1.bias": {
+    "shape": [
+      2
+    ],
+    "dtype": "float32",
+    "offset": 32792
+  }
+}
